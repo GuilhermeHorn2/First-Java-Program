@@ -1,0 +1,25 @@
+package project1;
+import java.util.Scanner;
+
+public class demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    System.out.print("Input your age: ");
+	    Scanner sc = new Scanner(System.in);//input line
+	    String s = sc.nextLine();//variable that will store the input
+	    int age = Integer.parseInt(s);//convert to int
+	    
+	    if(age >= 14) {
+	    	System.out.print("You can watch this movie");
+	    }
+	    else {
+	    	System.out.print("You cannot watch this movie");
+	    }
+	    
+	    
+		
+
+	}
+
+}
